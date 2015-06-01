@@ -1,0 +1,38 @@
+{
+  "name": "lazy-glob",
+  "description": "Lazily require glob, since it takes so long to load.",
+  "version": "0.1.2",
+  "homepage": "https://github.com/jonschlinkert/lazy-glob",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/lazy-glob.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/lazy-glob/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "glob": "^5.0.10",
+    "lazy-cache": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "keywords": [
+    "glob"
+  ]
+}
